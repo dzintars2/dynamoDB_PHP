@@ -1,0 +1,405 @@
+{ "companyList": [
+    {
+      "companyName": "Latvijas Universitāte",
+      "regNo": "90000076669",
+      "address": "Raiņa bulvāris 19, Rīga"
+    },
+    {
+      "companyName": "DIGIX BLOCKCHAIN TECHNOLOGIES",
+      "regNo": "40203175496",
+      "address": "Raunas nov., Drustu pag., Drusti, Palsas iela 22"
+    },
+    {
+      "companyName": "Būvpadoms SIA",
+      "regNo": "40203175087",
+      "address": "Salaspils nov., Salaspils, Meldru iela 4"
+    },
+    {
+      "companyName": "MC-tech, SIA",
+      "regNo": "40203175091",
+      "address": "Stopiņu nov., Dzidriņas, Dienvidu iela 45"
+    },
+    {
+      "companyName": "Cosco, SIA",
+      "regNo": "40203175123",
+      "address": "Babītes nov., Babītes pag., Spilve, Bišu iela 12 - 1"
+    },
+    {
+      "companyName": "Hitech translations SIA",
+      "regNo": "40203175157",
+      "address": "Rīga, Baltāsbaznīcas iela 46 - 1"
+    },
+    {
+      "companyName": "Purvciems Residence SIA",
+      "regNo": "40203175195",
+      "address": "Rīga, Matīsa iela 26"
+    },
+    {
+      "companyName": "Victoria's Classic Cars, SIA",
+      "regNo": "40203175227",
+      "address": "Rīga, Ganību dambis 22D"
+    },
+    {
+      "companyName": "MP Celtnieks, SIA",
+      "regNo": "40203175250",
+      "address": "Rīga, Mēness iela 18A - 36"
+    },
+    {
+      "companyName": "SIA Harena",
+      "regNo": "40203175265",
+      "address": "Rīga, Dzirciema iela 52 k-2 - 40"
+    },
+    {
+      "companyName": "SIA Taco shell",
+      "regNo": "40203175299",
+      "address": "Rīga, Baložu iela 19 - 3"
+    },
+    {
+      "companyName": "Logu aģentūra SIA",
+      "regNo": "40203175320",
+      "address": "Rīga, Rigondas gatve 6 - 59"
+    },
+    {
+      "companyName": "Gray Consulting SIA",
+      "regNo": "50203175341",
+      "address": "Rīga, Krišjāņa Valdemāra iela 33 - 5"
+    },
+    {
+      "companyName": "DMwoods SIA",
+      "regNo": "45403051993",
+      "address": "Madonas nov., Bērzaunes pag., Sauleskalns, Aronas iela 9 - 22"
+    },
+    {
+      "companyName": "AgroTech SIA",
+      "regNo": "40203175388",
+      "address": "Rīga, Krišjāņa Valdemāra iela 21 - 20"
+    },
+    {
+      "companyName": "SIA Taxify LV",
+      "regNo": "40203175392",
+      "address": "Rīga, Kuģu iela 26 - 60"
+    },
+    {
+      "companyName": "VISERVISS SIA",
+      "regNo": "41503083240",
+      "address": "Daugavpils, Veidenbauma iela 18"
+    },
+    {
+      "companyName": "SIA Wise Ride",
+      "regNo": "43603084128",
+      "address": "Jelgava, Zvaigžņu iela 2"
+    },
+    {
+      "companyName": "LIGHT ROOMS RĪGA SIA",
+      "regNo": "40203173847",
+      "address": "Rīga, Katoļu iela 31 - 34"
+    },
+    {
+      "companyName": "SIA Mezzotint",
+      "regNo": "40203173902",
+      "address": "Rīga, Maskavas iela 321 - 9"
+    },
+    {
+      "companyName": "Xsara international Trade SIA",
+      "regNo": "40203173940",
+      "address": "Ozolnieku nov., Ozolnieku pag., Ozolnieki, Kļavu iela 29"
+    }
+  ], 
+  "priceList":[
+      {
+        "itemNumber": "0001",
+        "itemName": "Tonera uzpilde",
+        "measurment": "gab",
+        "price": 15.00
+      },
+      {
+        "itemNumber": "0002",
+        "itemName": "Papīrs MultiCopy Original White, A4, 80 g/m2, 500 loksnes",
+        "measurment": "gab",
+        "price": 4.21
+      },
+      {
+        "itemNumber": "0003",
+        "itemName": "Pildspalva",
+        "measurment": "gab",
+        "price": 0.49
+      },
+      {
+        "itemNumber": "0004",
+        "itemName": "Kafija",
+        "measurment": "kg",
+        "price": 19.90
+      },
+      {
+        "itemNumber": "0005",
+        "itemName": "Tēja",
+        "measurment": "gab",
+        "price": 1.50
+      },
+      {
+        "itemNumber": "0006",
+        "itemName": "Avota ūdens (18,9l)",
+        "measurment": "gab",
+        "price": 3.50
+      },
+      {
+        "itemNumber": "0007",
+        "itemName": "Mape - reģistrs (A4 75mm Orandžs)",
+        "measurment": "gab",
+        "price": 3.01
+      },
+      {
+        "itemNumber": "0008",
+        "itemName": "Mape reģistrs Esselte No.1 Power, A4, 75 mm, violeta",
+        "measurment": "gab",
+        "price": 3.31
+      },
+      {
+        "itemNumber": "0009",
+        "itemName": "Mape reģistri Leitz Style, A4, 75 mm, melna",
+        "measurment": "gab",
+        "price": 9.65
+      },
+      {
+        "itemNumber": "1001",
+        "itemName": "Mape reģistrs Elba Strong-Line, A4, 50 mm, balta",
+        "measurment": "gab",
+        "price": 2.74
+      },
+      {
+        "itemNumber": "2001",
+        "itemName": "Arhīva kaste Forpus, A4, 8 cm, kartona",
+        "measurment": "gab",
+        "price": 0.75
+      },
+      {
+        "itemNumber": "3001",
+        "itemName": "Arhīva kaste ar vāku Esselte, kartona, balta",
+        "measurment": "gab",
+        "price": 5.48
+      },
+      {
+        "itemNumber": "4001",
+        "itemName": "Uzglabāšanas kaste Leitz, A4, melna",
+        "measurment": "gab",
+        "price": 12.60
+      },
+      {
+        "itemNumber": "5001",
+        "itemName": "Aploksnes pašlīmējošas ar lentu, C65, 25 gab., baltas",
+        "measurment": "gab",
+        "price": 0.63
+      },
+      {
+        "itemNumber": "6001",
+        "itemName": "Aploksnes pašlīmējošas ar lentu, C4, 25 gab., baltas",
+        "measurment": "gab",
+        "price": 2.03
+      },
+      {
+        "itemNumber": "7001",
+        "itemName": "Klipši papīram Office Point, 32 mm, 12 gab., melni",
+        "measurment": "gab",
+        "price": 0.96
+      },
+      {
+        "itemNumber": "8001",
+        "itemName": "Klipši papīram Office Point, 25 mm, 12 gab., melni",
+        "measurment": "gab",
+        "price": 0.79
+      },
+      {
+        "itemNumber": "9001",
+        "itemName": "Klipši papīram Deli 19 mm, 40 gab., krāsaini",
+        "measurment": "gab",
+        "price": 1.72
+      },
+      {
+        "itemNumber": "0101",
+        "itemName": "Saspraudes Concorde, 25 mm, 100 gab. ",
+        "measurment": "gab",
+        "price": 0.39
+      },
+      {
+        "itemNumber": "0201",
+        "itemName": "Saspraudes Grand 28 mm, 100 gab.",
+        "measurment": "gab",
+        "price": 0.28
+      },
+      {
+        "itemNumber": "0301",
+        "itemName": "Saspraudes ALCO, 26 mm, 100 gab., krāsainas ",
+        "measurment": "gab",
+        "price": 0.86
+      },
+      {
+        "itemNumber": "0401",
+        "itemName": "Saspraudes Durable, 26 mm, 100 gab., vara krāsā ",
+        "measurment": "gab",
+        "price": 0.45
+      },
+      {
+        "itemNumber": "0501",
+        "itemName": "Piespraudes korķa tāfelei Office Point, 60 gab., krāsainas",
+        "measurment": "gab",
+        "price": 0.85
+      },
+      {
+        "itemNumber": "0601",
+        "itemName": "Piespraudes Grand, 100 gab., sudraba",
+        "measurment": "gab",
+        "price": 0.34
+      },
+      {
+        "itemNumber": "0701",
+        "itemName": "Piespraudes korķa tāfelei Forpus, 100 gab., krāsainas",
+        "measurment": "gab",
+        "price": 0.94
+      },
+      {
+        "itemNumber": "0801",
+        "itemName": "Piespraudes tāfelei karodziņi ALCO, 20 gab., krāsainas",
+        "measurment": "gab",
+        "price": 0.72
+      },
+      {
+        "itemNumber": "0901",
+        "itemName": "Skavas Grand Nr. 24 / 6, 1000 gab.",
+        "measurment": "gab",
+        "price": 0.29
+      },
+      {
+        "itemNumber": "0011",
+        "itemName": "Skavas Grand Nr. 10, 1000 gab.",
+        "measurment": "gab",
+        "price": 0.26
+      },
+      {
+        "itemNumber": "0021",
+        "itemName": "Skavas Leitz N 26/6, 1000 gab.",
+        "measurment": "gab",
+        "price": 1.13
+      },
+      {
+        "itemNumber": "0031",
+        "itemName": "Kniedītes KW-Trio, 4.8 x 4.6 mm, 250 gab., zeltītas",
+        "measurment": "gab",
+        "price": 3.56
+      },
+      {
+        "itemNumber": "0041",
+        "itemName": "Lodīšu pildspalva Office Point Crystal, zila",
+        "measurment": "gab",
+        "price": 0.15
+      },
+      {
+        "itemNumber": "0051",
+        "itemName": "Lodīšu pildspalva Office Point, DK-621, zila",
+        "measurment": "gab",
+        "price": 0.60
+      },
+      {
+        "itemNumber": "0061",
+        "itemName": "Lodīšu pildspalva Cello, Joy, melna",
+        "measurment": "gab",
+        "price": 0.25
+      },
+      {
+        "itemNumber": "0071",
+        "itemName": "Lodīšu pildspalva Stanger, softgrip, zila",
+        "measurment": "gab",
+        "price": 0.22
+      },
+      {
+        "itemNumber": "0081",
+        "itemName": "Zīmulis Concorde, Blue Office, ar dzēšgumiju, HB",
+        "measurment": "gab",
+        "price": 0.19
+      },
+      {
+        "itemNumber": "0091",
+        "itemName": "Zīmulis Concorde, Green Office, ar dzēšgumiju, HB",
+        "measurment": "gab",
+        "price": 0.18
+      },
+      {
+        "itemNumber": "A001",
+        "itemName": "Zīmulis Office Point, ar dzēšgumiju, HB",
+        "measurment": "gab",
+        "price": 0.16
+      },
+      {
+        "itemNumber": "B001",
+        "itemName": "Zīmulis Koh-i-noor 1500, B",
+        "measurment": "gab",
+        "price": 0.43
+      },
+      {
+        "itemNumber": "C001",
+        "itemName": "Zīmulis trīsstūra Milan Maxi HB",
+        "measurment": "gab",
+        "price": 0.22
+      },
+      {
+        "itemNumber": "D001",
+        "itemName": "Gēla pildspalva Grand GR-161, zila",
+        "measurment": "gab",
+        "price": 0.73
+      },
+      {
+        "itemNumber": "E001",
+        "itemName": "Gēla pildspalva Cello,Top Gel, zila",
+        "measurment": "gab",
+        "price": 0.62
+      },
+      {
+        "itemNumber": "F001",
+        "itemName": "Gēla pildspalva Flair, Acu Gel, zila",
+        "measurment": "gab",
+        "price": 0.68
+      },
+      {
+        "itemNumber": "G001",
+        "itemName": "Gēla pildspalva Deli, metāla, melna",
+        "measurment": "gab",
+        "price": 0.99
+      },
+      {
+        "itemNumber": "H001",
+        "itemName": "Dzēšgumija Koh-i-noor, 300/40",
+        "measurment": "gab",
+        "price": 0.19
+      },
+      {
+        "itemNumber": "I001",
+        "itemName": "Dzēšgumija Milan 1012 ",
+        "measurment": "gab",
+        "price": 0.39
+      },
+      {
+        "itemNumber": "J001",
+        "itemName": "Līmes zīmulis 3M Scotch Classic, 8g",
+        "measurment": "gab",
+        "price": 0.67
+      },
+      {
+        "itemNumber": "K001",
+        "itemName": "Līmes zīmulis Concorde,15g",
+        "measurment": "gab",
+        "price": 0.76
+      },
+      {
+        "itemNumber": "L001",
+        "itemName": "Papīrs Sky Copy, A4, 80 g/m2, 500 loksnes",
+        "measurment": "gab",
+        "price": 3.69
+      },
+      {
+        "itemNumber": "M001",
+        "itemName": "Papīrs Navigator Presentation, A4, 100 g/m2, 500 loksnes",
+        "measurment": "gab",
+        "price": 5.91
+      }
+  ]
+}
+

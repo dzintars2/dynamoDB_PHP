@@ -1,0 +1,88 @@
+<!--
+    Key-Value datubāze DynamoDB
+-->
+<!DOCTYPE html>
+<html lang="lv">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>DynamoDB KV</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+  <body>
+    <div class="container">
+      <h4>Darbības DynamoDB (Mājas darbs #1)</h4>
+      <div class="list-group">
+        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start" id="createTable">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">Izveidot tabulas</h5>
+          </div>
+          <p class="mb-1">Tiks izveidotas tabulas 'uznemumi', 'preces', 'pasutijumi'</p>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start" id="generateData">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">Datu ģenerēšana</h5>
+          </div>
+          <p class="mb-1">Tiks izveidoti 2 klasifikatori (uzņēmumi ~20 ieraksti, preces ~50 ieraksti. Tiks ģenerēti 500 pasūtījumi</p>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start" id="report1">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">Atskaite #1</h5>
+          </div>
+          <p class="mb-1">Pasūtījumi, kuru veikti šajā gadā un kuru summa ir lielāka par 250,00 EUR.<br>
+          + uzņēmuma nosaukums<br>
+          + preces nosaukums<br>
+          + sakārtots pēc summas
+          </p>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start" id="report2">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">Atskaite #2</h5>
+          </div>
+          <p class="mb-1">Saraksts ar visiem uzņēmumiem, kuri reģistrēti Rīgā, kuriem šajā gadā ir vismaz 15 pasūtījumi un preces kods satur '001'<br>
+            + uzņēmuma nosaukums<br>+ sakārtošana pēc pasūtījumu skaita
+          </p>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start" id="report3">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">Atskaite #3</h5>
+          </div>
+          <p class="mb-1">Ieņēmumi un peļņa pa mēnešiem<br>
+            + atlasa pildspalvu realizāciju<br>
+            + pircējs nav Latvijas universitāte<br>
+            + pirkuma datums ir 'šogad'<br>
+            + TOP3 mēneši<br>
+            + sakārtots pēc ieņēmumu summas
+          </p>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start" id="report4">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">Atskaite #4</h5>
+          </div>
+          <p class="mb-1">Pasūtījumi, kuros pēc 01.08.2018 ir pirkts "papīrs" (3 preces satur vārdu papīrs un pasūtījumā pirkto vienību skaits ir 5 vai vairāk vienības</p>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start" id="report5">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">Atskaite #5</h5>
+          </div>
+          <p class="mb-1">TOP 3 pircēji</p>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start" id="report6">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">Atskaite #6</h5>
+          </div>
+          <p class="mb-1">TOP 3 preces šogad pēc pārdoto vienību skaita</p>
+        </a>
+      </div>
+    </div>  
+    <div id="dialog" title="Notiek datu apmaiņa">
+      <p>Lūdzu uzgaidiet...</p>
+    </div>
+    <div id="tabula" title="atskaite"></div>
+  </body>
+</html>
